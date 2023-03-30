@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "com.hardik.pottify",
+      "type": "com.hardik.pottify.properties.SpotifyAppConfigurationProperties",
+      "sourceType": "com.hardik.pottify.properties.SpotifyAppConfigurationProperties"
+    },
+    {
+      "name": "com.hardik.pottify.app",
+      "type": "com.hardik.pottify.properties.SpotifyAppConfigurationProperties$App",
+      "sourceType": "com.hardik.pottify.properties.SpotifyAppConfigurationProperties",
+      "sourceMethod": "getApp()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.hardik.pottify.app.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.hardik.pottify.properties.SpotifyAppConfigurationProperties$App"
+    },
+    {
+      "name": "com.hardik.pottify.app.redirect-url",
+      "type": "java.lang.String",
+      "sourceType": "com.hardik.pottify.properties.SpotifyAppConfigurationProperties$App"
+    }
+  ],
+  "hints": []
+}
